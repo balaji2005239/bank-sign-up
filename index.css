@@ -1,0 +1,107 @@
+body {
+    padding: 20px;
+    background-color: white;
+}
+
+.formContainer {
+    background-color: rgb(240, 223, 226);
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100%;
+    margin: auto;
+}
+
+.formInputContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.formInput {
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+}
+
+.formInput input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.formInput select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    border-radius: 45px;
+    border: none;
+    outline: none;
+    background-color: rgb(156, 156, 156);
+}
+
+.productContainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.productContainerHeader {
+    text-align: center;
+}
+
+.productContainerIn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.NomineeContainer {
+    background-color: white;
+    border-radius: 8px;
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.disclaimerContainer {
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.tandcContainer {
+    background-color: white;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.subBut {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.subBut button {
+    padding: 10px;
+    border-radius: 45px;
+    border: none;
+    outline: none;
+    background-color: rgb(156, 156, 156);
+    float: right;
+}
